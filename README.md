@@ -1,5 +1,7 @@
 # Jenkins CI/CD Pipeline for React Application
 
+![nodejs-unit-test-sonarqube-jenkins-cicd](https://github.com/yogendra-kokamkar/nodejs-unit-test-sonarqube-jenkins-cicd/assets/55878086/15320b54-a300-4bb7-ba74-69168a317399)
+
 This Jenkins pipeline automates the Continuous Integration and Continuous Deployment (CI/CD) process for a React application hosted on GitHub. The pipeline performs the following steps:
 
 1. **Checkout Code:** The pipeline checks out the code from the GitHub repository.
