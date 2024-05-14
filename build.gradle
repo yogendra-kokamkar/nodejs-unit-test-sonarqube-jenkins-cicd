@@ -1,0 +1,13 @@
+task npmInstall(type: Exec) {
+    commandLine 'npm', 'install'
+}
+
+task npmTest(type: Exec, dependsOn: 'npmInstall') {
+    commandLine 'npm', 'test', '--', '--coverage', '--watchAll=false'
+}
+
+task npmBuild(type: Exec) {
+    commandLine 'npm', 'run', 'build'
+}
+
+npmBuild.dependsOn npmInstall
