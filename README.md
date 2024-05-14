@@ -13,6 +13,9 @@ This Jenkins pipeline automates the Continuous Integration and Continuous Deploy
 4. **Build NPM Code:** It builds the React application using npm with the help of a Gradle script.
 
 5. **Deployment:** Finally, the built code is deployed using Nginx.
+   
+![nodejs-unit-test-sonarqube-jenkins-cicd-jenkins](https://github.com/yogendra-kokamkar/nodejs-unit-test-sonarqube-jenkins-cicd/assets/55878086/549a8fdc-555f-4a96-a6ac-2275c1c8d741)
+
 
 ## Prerequisites
 
