@@ -3,7 +3,7 @@ task npmInstall(type: Exec) {
 }
 
 task npmTest(type: Exec, dependsOn: 'npmInstall') {
-    commandLine 'npm', 'test', '--', '--coverage', '--watchAll=false'
+    commandLine 'npm', 'run', 'test'
 }
 
 task npmBuild(type: Exec) {
